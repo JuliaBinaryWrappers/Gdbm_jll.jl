@@ -1,0 +1,113 @@
+[[Gdbm]]
+arch = "aarch64"
+git-tree-sha1 = "85b70f644b2832c6c120b78ec62087e2b1a5a2c0"
+libc = "glibc"
+os = "linux"
+
+    [[Gdbm.download]]
+    sha256 = "4dbd5c2c2217d3ad06efca90ee6c1004a7694f77c197e660bdaaeecc50b0609a"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.aarch64-linux-gnu.tar.gz"
+[[Gdbm]]
+arch = "aarch64"
+git-tree-sha1 = "d73a4b1470c21b637cfec0974bd8f7dd4cd282c8"
+libc = "musl"
+os = "linux"
+
+    [[Gdbm.download]]
+    sha256 = "95b68ae14a082bb08df3c5b9f333c0e01816ddb990c4aae440b87a3c7b6e8ca2"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.aarch64-linux-musl.tar.gz"
+[[Gdbm]]
+arch = "armv7l"
+git-tree-sha1 = "d378f23eda604fd90a42cd2f53b48c5ddc88af72"
+libc = "glibc"
+os = "linux"
+
+    [[Gdbm.download]]
+    sha256 = "d39d5139ed96a170ac81cd0c20bb3ea3bac5bad6ca010a25cb0f5353844d8b86"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.armv7l-linux-gnueabihf.tar.gz"
+[[Gdbm]]
+arch = "armv7l"
+git-tree-sha1 = "54f20d4a5a1596bb5800e8733e6bb6ce40c64567"
+libc = "musl"
+os = "linux"
+
+    [[Gdbm.download]]
+    sha256 = "973310a46e743b395c2d5f30ad07ac48bf57f842f17fb2c18f29d2ec3e40aa43"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.armv7l-linux-musleabihf.tar.gz"
+[[Gdbm]]
+arch = "i686"
+git-tree-sha1 = "c5c3e3d483ecd3478ae6517ee98f6298f5fb392c"
+libc = "glibc"
+os = "linux"
+
+    [[Gdbm.download]]
+    sha256 = "52cf3a3a45f11ed7c91f9482b503163ca74a8e2883f358ad622cad2eab17d27d"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.i686-linux-gnu.tar.gz"
+[[Gdbm]]
+arch = "i686"
+git-tree-sha1 = "9b391cfe68a27018cfd29518ea44d072f0e0bf6f"
+libc = "musl"
+os = "linux"
+
+    [[Gdbm.download]]
+    sha256 = "40830d3c18b1d239e66c5594a5f64c4023d7e8bad83d720454803f20a816b3f6"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.i686-linux-musl.tar.gz"
+[[Gdbm]]
+arch = "i686"
+git-tree-sha1 = "b4d974e56e3ce7509afa66bf5fb83d7464e40dca"
+os = "windows"
+
+    [[Gdbm.download]]
+    sha256 = "ff2752055edabc5a0c912192bd98a3a23e614a8ae4b950bf6f53413f0d05d1cc"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.i686-w64-mingw32.tar.gz"
+[[Gdbm]]
+arch = "powerpc64le"
+git-tree-sha1 = "e5a67862beb119712c2da235f77dfbd0bb121147"
+libc = "glibc"
+os = "linux"
+
+    [[Gdbm.download]]
+    sha256 = "fe92ddf561de51e777b67f1a03f5ebffc8040ddce5dc2e00f8ea8982cff7d69c"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.powerpc64le-linux-gnu.tar.gz"
+[[Gdbm]]
+arch = "x86_64"
+git-tree-sha1 = "7fda413a2365d1885cf99054dda5aeef2dc9f666"
+os = "macos"
+
+    [[Gdbm.download]]
+    sha256 = "369afc4ba5c6168334c57918a88dbdc54c7f268dc6a32c6ff2e57bd5e52e6679"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.x86_64-apple-darwin14.tar.gz"
+[[Gdbm]]
+arch = "x86_64"
+git-tree-sha1 = "5d03a9a529356b10f333e194ff1be4f4d5f26edb"
+libc = "glibc"
+os = "linux"
+
+    [[Gdbm.download]]
+    sha256 = "b68efea5cf20285e622889e0892d4fd8fffefa0a4f8e536bb94297c7d3072d2b"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.x86_64-linux-gnu.tar.gz"
+[[Gdbm]]
+arch = "x86_64"
+git-tree-sha1 = "93bb320ca712f6e0737dee03e8697a17293fa533"
+libc = "musl"
+os = "linux"
+
+    [[Gdbm.download]]
+    sha256 = "63d78217e2e2b3b48236f29320520f56ccffcb673a6c2a50dd4e16c3a5fc0275"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.x86_64-linux-musl.tar.gz"
+[[Gdbm]]
+arch = "x86_64"
+git-tree-sha1 = "464b5f2add6fba646a8acb86b1b17672b07bcb06"
+os = "freebsd"
+
+    [[Gdbm.download]]
+    sha256 = "a9b8114630495576d2d815cbe4f44a9f5dd5509e923b8a214aa580f6f74e2eb0"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.x86_64-unknown-freebsd11.1.tar.gz"
+[[Gdbm]]
+arch = "x86_64"
+git-tree-sha1 = "2d91df42f0f1562c6fc67dbbe2d0d1e71d5a309d"
+os = "windows"
+
+    [[Gdbm.download]]
+    sha256 = "80bdcb3d0674eba28c6c4dc30534b412519ad52e14dfc6fdf31784572aa9daad"
+    url = "https://github.com/JuliaBinaryWrappers/Gdbm_jll.jl/releases/download/Gdbm-v1.18.1+0/Gdbm.v1.18.1.x86_64-w64-mingw32.tar.gz"

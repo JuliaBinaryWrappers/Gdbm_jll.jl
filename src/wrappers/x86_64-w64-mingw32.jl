@@ -4,12 +4,18 @@ export gdbm_dump, gdbm_load, gdbmtool, libgdbm
 using Libiconv_jll
 using Readline_jll
 JLLWrappers.@generate_wrapper_header("Gdbm")
+JLLWrappers.@declare_library_product(libgdbm, "libgdbm-6.dll")
 JLLWrappers.@declare_executable_product(gdbm_dump)
 JLLWrappers.@declare_executable_product(gdbm_load)
 JLLWrappers.@declare_executable_product(gdbmtool)
-JLLWrappers.@declare_library_product(libgdbm, "libgdbm-6.dll")
 function __init__()
     JLLWrappers.@generate_init_header(Libiconv_jll, Readline_jll)
+    JLLWrappers.@init_library_product(
+        libgdbm,
+        "bin\\libgdbm-6.dll",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
     JLLWrappers.@init_executable_product(
         gdbm_dump,
         "bin\\gdbm_dump.exe",
@@ -23,12 +29,6 @@ function __init__()
     JLLWrappers.@init_executable_product(
         gdbmtool,
         "bin\\gdbmtool.exe",
-    )
-
-    JLLWrappers.@init_library_product(
-        libgdbm,
-        "bin\\libgdbm-6.dll",
-        RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@generate_init_footer()
